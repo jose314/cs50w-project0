@@ -1,0 +1,28 @@
+.hb-header {
+    position:center;
+    background-color:blue;
+
+    .header-wrapper{
+        margin: 0 auto;
+        max-width: 1024px;
+        background-color: blue;
+    }
+
+}
+.fondo{
+    background-color: lightblue;
+  }
+  @media (min-width: 480px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  
+  %hover-image {
+    transform: scale(1.05);
+  }
+
+  #home_hero:hover{
+      @extend %hover-image;
+  }
