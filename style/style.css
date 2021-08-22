@@ -12,6 +12,13 @@
 .fondo {
   background-color: lightblue;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+h1{
+  text-align: center;
+}
 
 @media (min-width: 480px) {
   body {
